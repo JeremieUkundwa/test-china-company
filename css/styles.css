@@ -118,7 +118,7 @@ header .logo img{
   }
   .nav-links ul.show {
     display: flex;
-    gap: 20px;
+    gap: 8px;
   }
   .custo-nav.show{
     display: flex;
@@ -1231,8 +1231,8 @@ a>svg:hover {
     /* ----------------- about page ------------- */
 
     .hero-content-2 {
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
         align-items: center;
         justify-content: center;
         background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)), url(../img/nature.jpg);
@@ -1881,8 +1881,8 @@ a>svg:hover {
     /* ----------------- about page ------------- */
 
     .hero-content-2 {
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
         align-items: center;
         justify-content: center;
         background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)), url(/img/nature.jpg);
