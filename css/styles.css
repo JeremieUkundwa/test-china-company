@@ -86,6 +86,7 @@ header .logo img{
   
   .navbar-toggle {
     cursor: pointer;
+    padding: 10px;
   }
   
   .icon {
@@ -94,7 +95,7 @@ header .logo img{
     position: relative;
   }
   
-  .icon:before,
+  /* .icon:before,
   .icon:after {
     content: "";
     width: 100%;
@@ -104,16 +105,28 @@ header .logo img{
     left: 0;
   }
   
-  .icon:before {
+  .icon::before {
     top: -6px;
   }
   
-  .icon:after {
+  .icon::after {
     bottom: -6px;
-  }
+  } */
   
   .navbar-menu.show {
     display: flex;
+  }
+  .nav-links ul.show {
+    display: flex;
+    gap: 20px;
+  }
+  .custo-nav.show{
+    display: flex;
+    align-items: center;
+    /* transition: all ease-in-out(.2); */
+  }
+  .logo.show{
+    display: none;
   }
 /* End--Navigation toggle css */
 /* navigation links */

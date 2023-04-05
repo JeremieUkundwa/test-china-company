@@ -22,9 +22,11 @@
                 <div class="logo">
                     <img src="./img/green logo.png" alt="logo">
                 </div>
-                <nav>
+                <nav class="custo-nav">
                     <div class="navbar-toggle">
-                      <div class="icon"></div>
+                      <div class="icon">
+                        <img src="./img/icon/square.png" style="width: 30px;" alt="">
+                      </div>
                     </div>                
                 <div class="nav-links navbar-menu">
                     <ul>
@@ -315,9 +317,15 @@
     <script>
         const navbarToggle = document.querySelector(".navbar-toggle");
         const navbarMenu = document.querySelector(".navbar-menu");
+        const navbarLink = document.querySelector(".nav-links ul");
+        const nav = document.querySelector(".custo-nav");
+        const logo = document.querySelector(".logo");
     
         navbarToggle.addEventListener("click", () => {
           navbarMenu.classList.toggle("show");
+          navbarLink.classList.toggle("show");
+          nav.classList.toggle("show");
+          logo.classList.toggle("show");
         });
     
       </script>
