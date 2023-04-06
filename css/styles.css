@@ -643,6 +643,7 @@ a>svg:hover {
 .team-image img {
     /* filter: grayscale(1); */
     transition: all linear 0.2s;
+    width:300px;
 }
 
 .team-image img:hover {
@@ -1241,7 +1242,7 @@ a>svg:hover {
         background-repeat: no-repeat;
         background-attachment: fixed;
         height: 80vh;
-        background-size: cover;
+        background-size: contain;
     }
 
     .team-flex-container {
@@ -1275,6 +1276,7 @@ a>svg:hover {
     .ceo-team {
         border: 5px solid rgba(80, 168, 133, 0.1);
         outline: 5px solid rgba(80, 168, 133, 0.2);
+        height:320px;
     }
 
     .board {
@@ -1285,6 +1287,7 @@ a>svg:hover {
     .vice {
         border: 5px solid rgb(255, 233, 48, 0.1);
         outline: 5px solid rgb(255, 233, 48, 0.2);
+        height:310px;
     }
 
     .ceo-team:hover {
@@ -1892,7 +1895,7 @@ a>svg:hover {
         background-repeat: no-repeat;
         background-attachment: fixed;
         height: 80vh;
-        background-size: cover;
+        background-size: contain;
     }
 
     .team-flex-container {
