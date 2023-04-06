@@ -618,6 +618,7 @@ a>svg:hover {
 .ceo-team {
     border: 5px solid rgba(80, 168, 133, 0.1);
     outline: 5px solid rgba(80, 168, 133, 0.2);
+    height: 320px;
 }
 
 .board {
@@ -628,6 +629,7 @@ a>svg:hover {
 .vice {
     border: 5px solid rgb(255, 233, 48, 0.1);
     outline: 5px solid rgb(255, 233, 48, 0.2);
+    height: 310px;
 }
 
 .ceo-team:hover {
@@ -1242,7 +1244,7 @@ a>svg:hover {
         background-repeat: no-repeat;
         background-attachment: fixed;
         height: 80vh;
-        background-size: contain;
+        background-size: cover;
     }
 
     .team-flex-container {
@@ -1446,7 +1448,7 @@ a>svg:hover {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)), url(/img/bg.png);
+        background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)), url(../img/bg.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
         height: 80vh;
@@ -1890,12 +1892,12 @@ a>svg:hover {
         flex-direction: column; */
         align-items: center;
         justify-content: center;
-        background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)), url(/img/nature.jpg);
+        background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)), url(../img/nature.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
         height: 80vh;
-        background-size: contain;
+        background-size: cover;
     }
 
     .team-flex-container {
@@ -1929,6 +1931,7 @@ a>svg:hover {
     .ceo-team {
         border: 5px solid rgba(80, 168, 133, 0.1);
         outline: 5px solid rgba(80, 168, 133, 0.2);
+        margin-top: -30vh;
     }
 
     .board {
@@ -1939,6 +1942,7 @@ a>svg:hover {
     .vice {
         border: 5px solid rgb(255, 233, 48, 0.1);
         outline: 5px solid rgb(255, 233, 48, 0.2);
+        margin-top: -30vh;
     }
 
     .ceo-team:hover {
