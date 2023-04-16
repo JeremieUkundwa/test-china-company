@@ -178,6 +178,7 @@ header .logo img {
     url(../img/bg.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
   height: 80vh;
 }
 
@@ -1357,9 +1358,6 @@ a > svg:hover {
   }
 }
 
-
-
-
 /*================================ 480 px responsiveness */
 
 @media screen and (max-width: 480px) {
@@ -2002,10 +2000,10 @@ a > svg:hover {
 }
 
 /* manual image */
-.manual-image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
+.manual-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
 }
 /* manual image */
