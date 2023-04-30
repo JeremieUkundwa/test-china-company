@@ -122,7 +122,7 @@ header .logo img {
 .custo-nav.show {
   display: flex;
   align-items: center;
-  margin-left: -60px;
+  margin-left: -10px;
   /* transition: all ease-in-out(.2); */
 }
 .logo.show {
@@ -1747,7 +1747,7 @@ a > svg:hover {
 
   .product-wrapper {
     width: auto;
-    height: 2100px;
+    height: 2170px;
     background-color: var(--lg-green);
     display: flex;
     flex-direction: column;
@@ -2013,7 +2013,7 @@ a > svg:hover {
     justify-content: center;
     margin-top: 100px;
     gap: 50px;
-    margin-left: 60px;
+    margin-left: 35px;
     padding: 0px;
     width: 360px;
     overflow: hidden;
@@ -2075,7 +2075,6 @@ a > svg:hover {
   }
 
   .copyright-text {
-    width: 480px;
     margin-left: 0%;
     margin-top: 80px;
     margin-bottom: 32px;
