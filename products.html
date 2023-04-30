@@ -469,5 +469,20 @@
       var copyright = document.getElementById("copyright");
       copyright.innerHTML ="Copyright @"+currentYear+" Linyi Zhongke Xinhua New Materials Technology"
   </script>
+  <!-- end of footer section -->
+    <script>
+      const navbarToggle = document.querySelector(".navbar-toggle");
+      const navbarMenu = document.querySelector(".navbar-menu");
+      const navbarLink = document.querySelector(".nav-links ul");
+      const nav = document.querySelector(".custo-nav");
+      const logo = document.querySelector(".logo");
+
+      navbarToggle.addEventListener("click", () => {
+        navbarMenu.classList.toggle("show");
+        navbarLink.classList.toggle("show");
+        nav.classList.toggle("show");
+        logo.classList.toggle("show");
+      });
+    </script>
   </body>
 </html>
