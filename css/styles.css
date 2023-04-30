@@ -117,11 +117,12 @@ header .logo img {
 }
 .nav-links ul.show {
   display: flex;
-  gap: 8px;
+  gap: 5px;
 }
 .custo-nav.show {
   display: flex;
   align-items: center;
+  margin-left: -60px;
   /* transition: all ease-in-out(.2); */
 }
 .logo.show {
