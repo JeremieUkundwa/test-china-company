@@ -14,6 +14,63 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter&display=swap" rel="stylesheet">
+    <style>
+        .dropbtn {
+            text-decoration: none;
+            text-transform: capitalize;
+            color: var(--green);
+            transition: all linear 0.2s;
+            border: none;
+            background: none;
+        }
+        .dropbtn:hover{
+            color: var(--green);
+            font-weight: 600;
+            padding: 8px 24px;
+            border-radius: 100%;
+            background-color: var(--lg-green);
+            outline: 3px solid rgb(255, 233, 48, 0.5);
+            outline-offset: 4px;
+        }
+
+        .dropdown {
+        position: relative;
+        display: inline-block;
+        }
+
+        .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        }
+
+        .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        }
+        .dropdown:hover .dropdown-content {display: block;}
+
+        /* .dropdown-content a:hover{
+            color: var(--green) !important;
+            font-weight: 600 !important;
+            padding: 8px 24px !important;
+            border-radius: 80% !important;
+            background-color: var(--lg-green) !important;
+            outline: 3px solid rgb(255, 233, 48, 0.5) !important;
+            outline-offset: 4px !important;
+        } */
+
+        /* .dropdown-content a:hover {background-color: #ddd;} */
+
+        
+
+        /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+    </style>
 </head>
 <body>
         <!-- herosection -->
@@ -32,7 +89,22 @@
                     <ul>
                         <li><a href="./index.html" class="active">home</a></li>
                         <li><a href="./about.html">about</a></li>
-                        <li><a href="./products.html">products</a></li>
+                        <li>
+                            <!-- <a href="./products.html">products</a> -->
+                            <div class="dropdown">
+                                <button class="dropbtn">products</button>
+                                <div class="dropdown-content">
+                                  <a href="./curteries.html">PLA Cutlery</a>
+                                  <a href="./tableware.html">PLA tableware</a>
+                                  <a href="./bags.html">PLA bags</a>
+                                  <a href="./straws.html">PLA Straws</a>
+                                  <a href="./clear_cup.html">PLA Clear Cup</a>
+                                  <a href="./paper_cup.html">PLA Paper Cups</a>
+                                  <a href="./sleeve.html">Sleeve</a>
+                                  <a href="./modified_material.html">PLA Modified Materials</a>
+                                </div>
+                              </div>
+                        </li>
                         <li><a href="https://mp.weixin.qq.com/s/o4mOyu3suUKRf4Ph9V-UVQ"
                   target="_blank">news</a
                 >   </li>
