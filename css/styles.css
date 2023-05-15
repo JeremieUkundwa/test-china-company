@@ -1582,7 +1582,7 @@ a > svg:hover {
 
   .nav-links ul li .active {
     background-color: var(--lg-green);
-    padding: 12px 24px;
+    padding: 12px 15px;
     border-radius: 50px;
   }
 
@@ -1747,7 +1747,7 @@ a > svg:hover {
 
   .product-wrapper {
     width: auto;
-    height: 2170px;
+    height: 2570px;
     background-color: var(--lg-green);
     display: flex;
     flex-direction: column;
