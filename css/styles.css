@@ -178,7 +178,7 @@ header .logo img {
   /* background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
     url(../img/bg.png); */
   background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
-  url(../img/background-1.jpeg);
+  url(../img/background-1_big.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -670,7 +670,7 @@ a > svg:hover {
   /* background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
     url(../img/nature.jpg); */
   background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
-  url(../img/Transparent\ clear\ cups.jpeg);
+  url(../img/Transparent\ clear\ cups_big.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
