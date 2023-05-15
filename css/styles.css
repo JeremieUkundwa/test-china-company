@@ -175,8 +175,10 @@ header .logo img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
+    url(../img/bg.png); */
   background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
-    url(../img/bg.png);
+  url(../img/background-1.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -665,8 +667,10 @@ a > svg:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
+    url(../img/nature.jpg); */
   background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
-    url(../img/nature.jpg);
+  url(../img/Transparent\ clear\ cups.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -878,8 +882,10 @@ a > svg:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
-      url(../img/bg.png);
+    /* background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
+      url(../img/bg.png); */
+      background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
+      url(../img/background-1.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
@@ -1389,8 +1395,10 @@ a > svg:hover {
         flex-direction: column; */
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
-      url(../img/nature.jpg);
+    /* background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
+      url(../img/nature.jpg); */
+      background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
+      url(../img/Transparent\ clear\ cups.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1593,9 +1601,11 @@ a > svg:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
-      url(../img/bg.png);
-    background-repeat: no-repeat;
+    /* background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
+      url(../img/bg.png); */
+      background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
+      url(../img/background-1.jpeg);
+      background-repeat: no-repeat;
     background-attachment: fixed;
     height: 80vh;
   }
@@ -2097,8 +2107,10 @@ a > svg:hover {
         flex-direction: column; */
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
-      url(../img/nature.jpg);
+    /* background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
+      url(../img/nature.jpg); */
+      background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
+  url(../img/Transparent\ clear\ cups.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
