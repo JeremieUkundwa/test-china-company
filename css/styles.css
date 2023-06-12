@@ -178,7 +178,7 @@ header .logo img {
   /* background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
     url(../img/bg.png); */
   background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
-  url(../img/background-1_big.jpeg);
+    url(../img/background-1_big.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -669,7 +669,7 @@ a > svg:hover {
   /* background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
     url(../img/nature.jpg); */
   background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
-  url(../img/Transparent\ clear\ cups_big.jpeg);
+    url(../img/Transparent\ clear\ cups_big.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -883,7 +883,7 @@ a > svg:hover {
     justify-content: center;
     /* background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
       url(../img/bg.png); */
-      background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
+    background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
       url(../img/background-1.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1396,7 +1396,7 @@ a > svg:hover {
     justify-content: center;
     /* background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
       url(../img/nature.jpg); */
-      background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
+    background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
       url(../img/Transparent\ clear\ cups.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -1602,9 +1602,9 @@ a > svg:hover {
     justify-content: center;
     /* background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
       url(../img/bg.png); */
-      background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
+    background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
       url(../img/background-1.jpeg);
-      background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     height: 80vh;
   }
@@ -2108,8 +2108,8 @@ a > svg:hover {
     justify-content: center;
     /* background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
       url(../img/nature.jpg); */
-      background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
-  url(../img/Transparent\ clear\ cups.jpeg);
+    background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
+      url(../img/Transparent\ clear\ cups.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -2242,7 +2242,7 @@ a > svg:hover {
 .main-container {
   /* margin: 6% 0 0 36%; */
   position: relative;
-  width: 25%;
+  width: 30%;
 }
 
 .fork-image img {
@@ -2266,13 +2266,17 @@ a > svg:hover {
 .main-container:hover .overlay {
   height: 100%;
   color: #fff;
-  transform: scale(1.05);
+  transform: scale(0.9);
 }
 
 .list .content-container {
   color: #fff;
-  padding: 24px;
+  padding-left: 12px;
   padding-top: 80px;
   flex: none;
   width: 50%;
+}
+
+.list li {
+  line-height: 28px;
 }
