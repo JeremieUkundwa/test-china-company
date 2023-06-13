@@ -2242,7 +2242,7 @@ a > svg:hover {
 .main-container {
   /* margin: 6% 0 0 36%; */
   position: relative;
-  width: 30%;
+  width: 100%;
 }
 
 .fork-image img {
@@ -2266,17 +2266,18 @@ a > svg:hover {
 .main-container:hover .overlay {
   height: 100%;
   color: #fff;
-  transform: scale(0.9);
+  transform: scale(1);
 }
 
 .list .content-container {
   color: #fff;
   padding-left: 12px;
+  padding-right: 32px;
   padding-top: 80px;
   flex: none;
-  width: 50%;
+  width: 100%;
 }
 
 .list li {
-  line-height: 28px;
+  line-height: 24px;
 }
