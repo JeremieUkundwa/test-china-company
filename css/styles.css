@@ -177,12 +177,12 @@ header .logo img {
   justify-content: center;
   /* background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
     url(../img/bg.png); */
-  background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
-    url(../img/background-1_big.jpeg);
+  /* background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
+    url(../img/background-1_big.jpeg); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 80vh;
+  height: 100vh;
 }
 
 .hero-content .hero-content-words {
