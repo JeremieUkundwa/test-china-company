@@ -883,8 +883,8 @@ a > svg:hover {
     justify-content: center;
     /* background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
       url(../img/bg.png); */
-    background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
-      url(../img/carousel/p1.png);
+    /* background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
+      url(../img/carousel/p1.png); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 80vh;
