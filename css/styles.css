@@ -1396,12 +1396,11 @@ a > svg:hover {
     justify-content: center;
     /* background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
       url(../img/nature.jpg); */
-    background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
-      url(../img/Transparent\ clear\ cups.jpeg);
+    background: url(../img/background-1_big.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 80vh;
+    height: 100vh;
     background-size: cover;
   }
 
@@ -1600,13 +1599,10 @@ a > svg:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
-      url(../img/bg.png); */
-    background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
-      url(../img/background-1.jpeg);
+    background: url(../img/carousel/bg1.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 80vh;
+    height: 100vh;
   }
 
   .hero-content .hero-content-words {
