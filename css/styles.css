@@ -884,10 +884,10 @@ a > svg:hover {
     /* background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
       url(../img/bg.png); */
     background: linear-gradient(rgb(80, 168, 133, 0.2), rgb(80, 168, 133, 0.5)),
-      url(../img/background-1.jpeg);
+      url(../img/carousel/p1.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
+    height: 80vh;
   }
 
   .hero-content .hero-content-words {
@@ -1599,10 +1599,10 @@ a > svg:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url(../img/carousel/bg1.png);
+    /* background: url(../img/carousel/p2.png); */
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
+    height: auto;
   }
 
   .hero-content .hero-content-words {
